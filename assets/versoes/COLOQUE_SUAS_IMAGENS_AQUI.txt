@@ -1,0 +1,6 @@
+Para guardar imagens pessoais no site, coloque os arquivos aqui com nomes exatos:
+1973.png, 1980.png, 1985.png, 1991.png, 2001.png, 2003.png, 2005.png, 2007.png, 2008.png, 2009.png, 2018.png, 2019.png, 2021.png, 2023.png, 2026.png.
+
+O site utiliza automaticamente essas imagens quando encontrá-las. Se não houver arquivo, tenta usar a referência online. Recomenda-se imagem PNG com fundo transparente e boa resolução, mas JPEG renomeado como PNG geralmente também carrega nos navegadores.
+
+Não publique imagens cujo uso você não tenha autorização para redistribuir.
