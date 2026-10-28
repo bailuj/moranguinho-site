@@ -1,370 +1,276 @@
-// 15 marcos visuais: inclui variações e materiais promocionais, não 15 reboots oficiais.
+// Linha do tempo: 15 visuais selecionados. Nem todo ano representa uma nova geração oficial.
 const eras = {
-  "1978": {
-    "year": "1978",
-    "label": "A sementinha",
-    "title": "O visual clássico nasce",
-    "short": "O desenho com chapéu enorme e aparência artesanal ganha identidade própria.",
-    "description": "A Moranguinho surgiu em cartões desde 1973, mas seu estilo clássico ficou conhecido a partir de 1978. O chapéu grande, o vestido e a paleta de cores quentes formaram a base da personagem amada por gerações.",
-    "medium": "Estilo clássico em cartões",
-    "compareTitle": "A identidade original",
-    "compareText": "Chapéu grande, vestido vermelho e traços suaves.",
+  "1973": {
+    "year": "1973",
+    "label": "Os primeiros cartões",
+    "title": "Onde a doçura começou",
+    "short": "Chapéu castanho estampado, flor amarela e vestido vermelho de bolinhas: um visual de ilustração vintage.",
+    "description": "A personagem apareceu em cartões da American Greetings em 1973. Na imagem desta coleção, ela tem um chapéu marrom com moranguinhos, cabelos castanhos compridos, vestido vermelho pontilhado e uma flor amarela ao lado. É uma estética de desenho artesanal, anterior às famosas bonecas dos anos 80.",
+    "medium": "Primeiros cartões e ilustrações",
+    "compareTitle": "A sementinha da história",
+    "compareText": "Chapéu marrom estampado, vestido de bolinhas e flor amarela.",
     "traits": [
-      "Traços artesanais de ilustração infantil",
-      "Chapéu marcante, flores e vestido",
-      "A base para a identidade clássica que chegou em 1980"
-    ],
-    "source": "https://x.com/naaragaci/status/1680596757091164163",
-    "image": "",
-    "sprite": [
-      0,
-      0
+      "Cabelos castanhos longos e traço de cartão ilustrado",
+      "Chapéu castanho com estampas e vestido de bolinhas",
+      "Cores terrosas e uma grande flor amarela"
     ],
     "bg": "#f9e5d1"
   },
   "1980": {
     "year": "1980",
-    "label": "A clássica",
-    "title": "O cheirinho da infância",
-    "short": "Cachinhos, avental, chapéu fofinho e a era das bonecas perfumadas.",
-    "description": "A Kenner lançou as famosas bonecas perfumadas e a personagem ganhou um especial animado. A roupinha campestre e o chapéu com morangos se tornaram sua marca registrada.",
-    "medium": "Bonecas e desenho animado",
-    "compareTitle": "A boneca perfumada",
-    "compareText": "Cachos de lã, chapéu de morango e meias listradas.",
+    "label": "A clássica dos anos 80",
+    "title": "O cheirinho que virou memória",
+    "short": "Chapéu rosa volumoso, cachinhos avermelhados e a inseparável gatinha: a era das bonecas perfumadas.",
+    "description": "Em 1980, a Kenner lançou as bonecas com cheirinho de frutas e estreou o primeiro especial animado. Nesta imagem, a Moranguinho veste um grande chapéu rosa estampado, saia vermelha com avental, meias verdes listradas e segura a gatinha Custard. É a silhueta campestre mais reconhecível da fase clássica.",
+    "medium": "Bonecas perfumadas e animação",
+    "compareTitle": "A Moranguinho clássica",
+    "compareText": "Chapéu rosa com morangos, cachinhos, avental e meias listradas.",
     "traits": [
-      "Chapéu arredondado e avental",
-      "Cachos e proporções de boneca",
-      "Meias verdes e brancas"
+      "Cachinhos ruivos e enorme chapéu rosa estampado",
+      "Avental, vestido vermelho e meias verdes listradas",
+      "A gatinha Custard nos braços"
     ],
-    "source": "https://www.strawberryshortcake.com/about",
-    "image": "https://static.wixstatic.com/media/999c17_d49eaf6777414bb4b1d8b79ddf18ce7d~mv2.png",
-    "sprite": null,
     "bg": "#f7d6df"
   },
   "1985": {
     "year": "1985",
-    "label": "O fim da primeira leva",
-    "title": "Mais laços e detalhes",
-    "short": "Uma variação oitentista com laço, vestido delicado e cores suaves.",
-    "description": "Nos últimos anos da fase clássica, as roupas, penteados e ilustrações promocionais passaram por ajustes. A versão mostrada no álbum de referências representa essa estética da metade dos anos 80.",
-    "medium": "Variação promocional",
-    "compareTitle": "Novos detalhes retrô",
-    "compareText": "Laço na cabeça e vestidinho de tons suaves.",
+    "label": "Um laço diferente",
+    "title": "Franja, laço e vestidinho rosa",
+    "short": "Cabelo ruivo liso na altura do queixo, laço rosa gigante e vestido delicado: uma variação dos anos 80.",
+    "description": "O arquivo escolhido para 1985 mostra uma variação bem diferente da bonequinha de 1980: cabelo ruivo curto e liso, franja reta, laço grande no alto da cabeça e vestido rosa com babados. Aqui, 1985 identifica o visual selecionado para o álbum, não uma nova geração oficial da franquia.",
+    "medium": "Variação ilustrada dos anos 80",
+    "compareTitle": "O laço cor-de-rosa",
+    "compareText": "Franja reta, cabelo curto, laço alto e vestido rosa.",
     "traits": [
-      "Acessórios e laços mais visíveis",
-      "Traço clássico ainda delicado",
-      "Roupas mais ornamentadas"
-    ],
-    "source": "https://x.com/naaragaci/status/1680596757091164163",
-    "image": "",
-    "sprite": [
-      2,
-      0
+      "Cabelo liso, ruivo e curto com franja",
+      "Laço grande substituindo o chapéu",
+      "Vestido rosa com detalhes brancos e meias listradas"
     ],
     "bg": "#e8e2f3"
   },
   "1991": {
     "year": "1991",
-    "label": "O grande laço",
-    "title": "Cachinhos bem noventistas",
-    "short": "A THQ trocou o chapéu pelo laço e apostou em um vestido de festa.",
-    "description": "A linha de bonecas de 1991 trouxe cachos volumosos, laços e roupinhas diferentes, sem uma série animada própria. Este foi um dos relançamentos visuais mais radicais da Moranguinho.",
-    "medium": "Relançamento de brinquedos",
-    "compareTitle": "A fase THQ",
-    "compareText": "Laço grande, cabelo volumoso e sapatilhas.",
+    "label": "O relançamento THQ",
+    "title": "Cachinhos e um laço de bolinhas",
+    "short": "Cabelos ruivos muito cacheados, laço rosa com bolinhas e vestido de festa.",
+    "description": "Em 1991, a THQ apresentou uma nova linha de bonecas da Moranguinho. A arte escolhida destaca os cabelos ruivos volumosos, os olhos azuis, um enorme laço rosa de bolinhas e o vestido rodado, também rosa. Foi um relançamento de brinquedos, não uma nova série animada.",
+    "medium": "Linha de bonecas THQ",
+    "compareTitle": "A Moranguinho dos cachinhos",
+    "compareText": "Cachos fartos, laço de bolinhas e vestido rosa rodado.",
     "traits": [
-      "Laço no lugar do chapéu de sempre",
-      "Cachos bem definidos e olhos azuis",
-      "Traços de moda infantil do início dos anos 90"
-    ],
-    "source": "https://dollect.net/database/strawberry-shortcake-thq/",
-    "image": "",
-    "sprite": [
-      3,
-      0
+      "Cachos ruivos muito volumosos e olhos azuis",
+      "Laço rosa grande com bolinhas brancas e flor",
+      "Vestido de festa e sapatos delicados"
     ],
     "bg": "#efdae7"
   },
   "2001": {
     "year": "2001",
-    "label": "Nos cartões de novo",
-    "title": "Um aceno à nostalgia",
-    "short": "Traços retrô reaparecem em artes de transição do início dos anos 2000.",
-    "description": "Um painel de colecionador identifica este estilo como 2001. Ele é tratado aqui como variação visual documentada por fãs, não como lançamento confirmado de uma nova geração animada.",
-    "medium": "Arte de coleção",
-    "compareTitle": "A transição retrô",
-    "compareText": "Traço de ilustração clássica atualizado.",
+    "label": "Um toque campestre",
+    "title": "Cartas, morangos e uma gatinha",
+    "short": "Chapéu de aba larga, laço verde e vestido estampado ao lado de uma caixa de correio.",
+    "description": "A imagem que você escolheu para 2001 traz uma Moranguinho de aparência campestre: chapéu rosa com fita verde, cabelo ruivo, roupa com saia de detalhes verdes e uma caixa de correio com morangos. O ano é usado para identificar esta arte na coleção; não indica, por si só, a estreia de uma nova série.",
+    "medium": "Ilustração de transição",
+    "compareTitle": "O correio dos morangos",
+    "compareText": "Chapéu largo com laço verde, vestido estampado e caixa de correio.",
     "traits": [
-      "Chapéu largo e elementos campestres",
-      "Linhas mais limpas que as dos anos 80",
-      "Visual de transição entre décadas"
-    ],
-    "source": "https://x.com/naaragaci/status/1680596757091164163",
-    "image": "",
-    "sprite": [
-      4,
-      0
+      "Chapéu largo de tons rosa com laço verde",
+      "Vestido e avental com detalhes geométricos",
+      "Cenário com gatinha e correspondência"
     ],
     "bg": "#e5eddc"
   },
   "2003": {
     "year": "2003",
-    "label": "Nova aventura",
-    "title": "Jeans e uma mochila de sonhos",
-    "short": "Ela aparece com jeans, blusa listrada e um chapéu cheio de personalidade.",
-    "description": "Um novo desenho animado modernizou a personagem. As proporções ficaram mais altas, a roupa ganhou jeans e a aventura passou a fazer parte de seu estilo.",
-    "medium": "Novo desenho animado",
-    "compareTitle": "A aventureira dos anos 2000",
-    "compareText": "Jeans, camiseta listrada e chapéu de aba larga.",
+    "label": "Uma nova aventura",
+    "title": "Jeans, livro e mochila",
+    "short": "Chapéu rosa de aba enorme, cabelos ruivos mais curtos, jeans e uma mochila.",
+    "description": "O relançamento de 2003 trouxe novas animações e um guarda-roupa mais próximo da moda infantil da época. Nesta imagem, a Moranguinho segura um livro, usa calça jeans larga, blusa listrada, mochila rosa e um chapéu de aba grande. Seu traço é mais definido, sem perder as cores de morango.",
+    "medium": "Relançamento da animação",
+    "compareTitle": "A aventureira de jeans",
+    "compareText": "Livro, mochila rosa, calça jeans e chapéu largo.",
     "traits": [
-      "Cabelo ruivo mais liso e curto",
-      "Blusa de listras e calça jeans",
-      "Traço 2D com contornos definidos"
+      "Cabelo ruivo curto com mechas viradas",
+      "Blusa de listras, calça jeans e mochila",
+      "Chapéu rosa largo com detalhes verdes"
     ],
-    "source": "https://www.strawberryshortcake.com/about",
-    "image": "https://static.wixstatic.com/media/999c17_a5d2f191824e4495b8460272945dfa94~mv2.png",
-    "sprite": null,
     "bg": "#e5eedc"
   },
   "2005": {
     "year": "2005",
-    "label": "Mais cor no guarda-roupa",
-    "title": "A fase cheia de rosa",
-    "short": "Em artes de meados da década, a roupa fica mais rosa e descontraída.",
-    "description": "A estética do universo iniciado em 2003 evoluiu também em figurinos e materiais promocionais. O painel de colecionador registra uma variante com tons de rosa e roupa mais casual em 2005.",
-    "medium": "Variação de figurino",
-    "compareTitle": "Rosa e atitude",
-    "compareText": "Cores saturadas, rosa e silhueta juvenil.",
+    "label": "Mais cor e movimento",
+    "title": "Boné rosa e saia jeans",
+    "short": "Um look juvenil com cabelo avermelhado, blusa listrada, saia azul e acessórios rosa.",
+    "description": "Na imagem marcada como 2005, a Moranguinho aparece com boné rosa, cabelos avermelhados ondulados, blusa listrada de várias cores e saia jeans azul. É uma variação de figurino da fase iniciada em 2003, e não o começo de uma geração independente.",
+    "medium": "Variação de figurino dos anos 2000",
+    "compareTitle": "A fase da saia jeans",
+    "compareText": "Boné rosa, cabelos ondulados, blusa listrada e saia azul.",
     "traits": [
-      "Chapéu rosa mais chamativo",
-      "Blusa com estampa e peças coloridas",
-      "Visual mais próximo da moda da época"
-    ],
-    "source": "https://x.com/naaragaci/status/1680596757091164163",
-    "image": "",
-    "sprite": [
-      1,
-      1
+      "Boné de aba curta e cabelo ondulado",
+      "Blusa listrada multicolorida com bolsa",
+      "Saia jeans e tênis rosa"
     ],
     "bg": "#fbdce6"
   },
   "2007": {
     "year": "2007",
-    "label": "A personagem cresceu",
-    "title": "Um ar mais adolescente",
-    "short": "Novas roupas e proporções mais alongadas marcam a fase final dessa geração.",
-    "description": "A fase final da série iniciada em 2003 mudou parte do elenco e do design: a Moranguinho ficou mais crescida, com silhueta alongada e roupas modernas.",
-    "medium": "Redesenho da série",
-    "compareTitle": "A fase adolescente",
-    "compareText": "Proporções mais altas, chapéu e roupas modernas.",
+    "label": "Um visual mais crescido",
+    "title": "Listras, jeans e atitude",
+    "short": "Cabelo vinho na altura dos ombros, chapéu florido, camisa listrada e calça jeans.",
+    "description": "O desenho selecionado para 2007 mostra proporções mais alongadas e um estilo adolescente: chapéu claro com detalhes de morangos, cabelos vermelho-escuros, camisa de mangas compridas e jeans com bolsos laterais. É uma das variações do período de reformulação visual da série dos anos 2000.",
+    "medium": "Redesenho da fase de 2003",
+    "compareTitle": "Uma silhueta alongada",
+    "compareText": "Cabelo vermelho-escuro, camiseta listrada e jeans de bolsos.",
     "traits": [
-      "Corpo mais alongado",
-      "Roupa mais moderna e menos infantil",
-      "Continuidade do universo dos anos 2000"
-    ],
-    "source": "https://strawberryshortcake.fandom.com/wiki/Strawberry_Shortcake_%28character%29",
-    "image": "",
-    "sprite": [
-      2,
-      1
+      "Corpo mais alto e cabelo vinho mais comprido",
+      "Camisa de listras delicadas e calça jeans",
+      "Chapéu claro com estampa de morangos"
     ],
     "bg": "#fbe4d7"
   },
   "2008": {
     "year": "2008",
-    "label": "Últimos retoques",
-    "title": "Uma despedida dos anos 2000",
-    "short": "O visual de fim de fase aparece com cabelos avermelhados e vestido rosa.",
-    "description": "Uma variação registrada por colecionadores para o encerramento do ciclo dos anos 2000. Os anos deste álbum indicam referências de artes, e não necessariamente uma nova geração oficial.",
-    "medium": "Variação final",
-    "compareTitle": "Os últimos retoques",
-    "compareText": "Vestido rosa e cabelos vermelhos com estilo mais liso.",
+    "label": "Moda do fim da década",
+    "title": "Casaco rosa e tênis coloridos",
+    "short": "Cabelos ruivos ondulados, shorts brancos, casaco rosa e acessórios esportivos.",
+    "description": "Nesta arte identificada como 2008, a Moranguinho usa chapéu rosa, casaco curto de tom forte, shorts claros, tênis e uma bolsa a tiracolo. O visual é mais urbano e esportivo que o das primeiras versões dos anos 2000. A data marca a variação ilustrada, não necessariamente um novo lançamento.",
+    "medium": "Variação visual do fim dos anos 2000",
+    "compareTitle": "O look esportivo",
+    "compareText": "Casaco rosa, shorts claros, tênis altos e bolsa lateral.",
     "traits": [
-      "Roupas suaves com referências ao morango",
-      "Cabelo ruivo com penteado renovado",
-      "Traços da transição para a fase seguinte"
-    ],
-    "source": "https://x.com/naaragaci/status/1680596757091164163",
-    "image": "",
-    "sprite": [
-      3,
-      1
+      "Cabelo ruivo alaranjado e ondulado",
+      "Casaco rosa, shorts brancos e acessórios",
+      "Tênis coloridos e chapéu floral"
     ],
     "bg": "#f8d5da"
   },
   "2009": {
     "year": "2009",
-    "label": "A transformação rosa",
-    "title": "O mundo de Tutti Frutti",
-    "short": "O cabelo rosa e o chapéu de morango dominam a nova identidade.",
-    "description": "Um grande redesenho levou a Moranguinho para Berry Bitty City, com cabelos rosados, modelagem digital e figurino mais moderno. A série Berry Bitty Adventures estreou em 2010.",
-    "medium": "Grande relançamento",
-    "compareTitle": "A fase Tutti Frutti",
-    "compareText": "Cabelos rosa, chapéu de morango e visual 3D.",
+    "label": "Uma nova geração",
+    "title": "O chapéu virou um morango!",
+    "short": "Cabelo rosa comprido, rosto tridimensional e chapéu em forma de morango.",
+    "description": "O redesenho de 2009 preparou o universo de Berry Bitty Adventures, cuja série estreou em 2010. A imagem mostra a personagem em computação gráfica, com cabelo rosa longo, chapéu que parece um morango, vestido rosa de bolinhas e meias verdes e brancas.",
+    "medium": "Redesenho 3D de 2009–2010",
+    "compareTitle": "A Moranguinho de Tutti Frutti",
+    "compareText": "Cabelos rosa longos, chapéu em forma de fruta e visual 3D.",
     "traits": [
-      "Cabelo comprido em tom de rosa",
-      "Proporções alongadas",
-      "Chapêuzinho que lembra o fruto"
+      "Cabelo longo em tom de rosa",
+      "Chapéu tridimensional que imita um morango",
+      "Vestido rosa de bolinhas e meias verdes listradas"
     ],
-    "source": "https://www.strawberryshortcake.com/about",
-    "image": "https://static.wixstatic.com/media/999c17_62fa56c181354404a42504aa43d06974~mv2.png",
-    "sprite": null,
     "bg": "#ffdcca"
   },
   "2018": {
     "year": "2018",
-    "label": "Um 3D diferente",
-    "title": "Um protótipo muito fofo",
-    "short": "Um modelo de apresentação com olhos grandes e uma touca vermelha.",
-    "description": "Uma representação em CGI registrada em materiais ligados ao período: o protótipo aparece com olhos grandes e roupas simplificadas. É um visual específico, não uma série principal independente.",
-    "medium": "Protótipo visual",
-    "compareTitle": "A experiência em 3D",
-    "compareText": "Olhos grandes, touca vermelha e rosto infantil.",
+    "label": "Uma variação ilustrada",
+    "title": "A Moranguinho sentada no fruto",
+    "short": "Desenho 2D com cabelo rosa, chapéu de morango e expressão delicada.",
+    "description": "A imagem escolhida para 2018 é uma ilustração em 2D, não um modelo 3D: a Moranguinho aparece sentada sobre um morango gigante, com cabelo rosa comprido, chapéu vermelho arredondado e meias listradas. A data serve para organizar esta representação na coleção pessoal.",
+    "medium": "Arte 2D de coleção",
+    "compareTitle": "Sentada no morango",
+    "compareText": "Ilustração 2D, cabelo rosa comprido e morango gigante.",
     "traits": [
-      "Modelagem com cabeça mais arredondada",
-      "Olhos grandes e detalhes simplificados",
-      "Estética CGI de protótipo"
-    ],
-    "source": "https://strawberryshortcake.fandom.com/wiki/Strawberry_Shortcake_%28character%29",
-    "image": "",
-    "sprite": [
-      0,
-      2
+      "Traço bidimensional com olhos verdes grandes",
+      "Chapéu vermelho, cabelos rosa e roupa pontilhada",
+      "Morango gigante usado como assento"
     ],
     "bg": "#e5efe6"
   },
   "2019": {
     "year": "2019",
-    "label": "A era digital",
-    "title": "Um visual mais arredondado",
-    "short": "Outro registro de estética 3D em conteúdo e artes da fase digital.",
-    "description": "O álbum de colecionadores identifica esta variação em 2019. Ela aparece aqui como um registro de estilo da época, sem tratá-la como um novo lançamento oficial.",
-    "medium": "Variação digital",
-    "compareTitle": "O visual digital",
-    "compareText": "Rosto arredondado e chapéu vermelho.",
+    "label": "Uma experiência em CGI",
+    "title": "Cabelo rosa curto e boina vermelha",
+    "short": "Visual 3D de rosto arredondado, cabelo rosa mais curto e roupa branca.",
+    "description": "A representação usada para 2019 tem modelagem tridimensional, olhos grandes, cabelo rosa curto e uma touca vermelha pontilhada. Ela veste blusa branca, meias verdes listradas e tênis vermelhos. Esta é uma variação visual presente no álbum, sem afirmar que houve uma nova série oficial nesse ano.",
+    "medium": "Representação em computação gráfica",
+    "compareTitle": "A boina vermelha em 3D",
+    "compareText": "Cabelo rosa curto, touca vermelha e roupa branca em CGI.",
     "traits": [
-      "Cabelo rosado e formas suaves",
-      "Olhos grandes e expressivos",
-      "Volume tridimensional na roupa e no rosto"
-    ],
-    "source": "https://x.com/naaragaci/status/1680596757091164163",
-    "image": "",
-    "sprite": [
-      1,
-      2
+      "Modelagem 3D e olhos grandes",
+      "Cabelo rosa na altura do queixo",
+      "Touca vermelha pontilhada e roupas claras"
     ],
     "bg": "#dfeae6"
   },
   "2021": {
     "year": "2021",
-    "label": "Uma nova cidade",
-    "title": "A confeiteira dos sonhos",
-    "short": "Visual 2D com rosa e verde em uma cidade cheia de novidades.",
-    "description": "Berry in the Big City levou a Moranguinho a uma grande cidade, com uma estética 2D moderna e roupas urbanas. O sonho de ser confeiteira tornou-se o centro de suas histórias.",
-    "medium": "Nova série em 2D",
-    "compareTitle": "Moranguinho na Cidade Grande",
-    "compareText": "Visual urbano, cabelo rosa e desenhos mais estilizados.",
+    "label": "Moranguinho na Cidade Grande",
+    "title": "Uma confeiteira cheia de sonhos",
+    "short": "Traço 2D moderno, cabelo rosa liso, chapéu de morango e look urbano.",
+    "description": "A série Berry in the Big City estreou em 2021 e levou a Moranguinho para a cidade, onde ela sonha em crescer como confeiteira. A personagem aparece em animação 2D com cabelo rosa comprido, jaqueta azul, vestido branco com detalhe de morango e tênis vermelhos.",
+    "medium": "Série urbana em animação 2D",
+    "compareTitle": "A confeiteira da cidade",
+    "compareText": "Cabelo rosa, jaqueta azul, vestido branco e tênis.",
     "traits": [
-      "Proporções animadas e expressivas",
-      "Roupas de cidade e chapéu de morango",
-      "Animação 2D com traço moderno"
+      "Traço 2D com olhos verdes expressivos",
+      "Jaqueta azul sobre roupa clara com morango",
+      "Chapéu rosa e tênis vermelhos"
     ],
-    "source": "https://www.strawberryshortcake.com/about",
-    "image": "https://static.wixstatic.com/media/999c17_8f19dc77fa2049e781b370bb16982e60~mv2.png",
-    "sprite": null,
     "bg": "#e1ecee"
   },
   "2023": {
     "year": "2023",
-    "label": "Especiais em 3D",
-    "title": "A cidade fica tridimensional",
-    "short": "Uma adaptação em computação gráfica para os especiais da fase urbana.",
-    "description": "A fase da confeiteira também recebeu especiais em CG. A personagem mantém parte do visual moderno, agora com volume e expressões próprios da animação 3D.",
+    "label": "A cidade em 3D",
+    "title": "A confeiteira ganhou volume",
+    "short": "A Moranguinho da Cidade Grande recriada em CGI com avental e tigela de morangos.",
+    "description": "Em 2023, o universo de Berry in the Big City também ganhou especiais animados em computação gráfica. Nesta imagem, a Moranguinho tem cabelos rosa, boné texturizado, avental claro e segura uma tigela com morangos. É a releitura 3D do estilo urbano apresentado em 2021.",
     "medium": "Especiais em CGI",
-    "compareTitle": "A versão 3D da cidade",
-    "compareText": "Cabelos rosa, grandes olhos e figurino em CGI.",
+    "compareTitle": "A cidade tridimensional",
+    "compareText": "Cabelo rosa, avental, boné texturizado e tigela de frutas em 3D.",
     "traits": [
-      "Modelagem 3D com formas arredondadas",
-      "Referências ao figurino da série de 2021",
-      "Expressões faciais mais volumétricas"
-    ],
-    "source": "https://www.strawberryshortcake.com/about",
-    "image": "",
-    "sprite": [
-      3,
-      2
+      "Rosto e cabelos tridimensionais",
+      "Touca rosa texturizada e avental claro",
+      "Tigela de morangos e roupa de confeitaria"
     ],
     "bg": "#e4e2f0"
   },
   "2026": {
     "year": "2026",
-    "label": "De volta à origem",
-    "title": "A nostalgia ganhou volume!",
-    "short": "Cachinhos, chapéu e avental clássicos reinterpretados em 3D.",
-    "description": "Em Strawberry Shortcake’s Bake Shop, lançada em outubro de 2026, o universo visual dos anos 80 ganhou uma releitura em computação gráfica. Os cachos ruivos e a roupa campestre retornam com novos detalhes.",
-    "medium": "Nova série em CGI",
-    "compareTitle": "O clássico reinventado",
-    "compareText": "Chapéu vintage, avental e cachinhos no 3D.",
+    "label": "O clássico reinventado",
+    "title": "Os cachinhos estão de volta!",
+    "short": "Modelagem 3D com cachinhos ruivos, chapéu rosa grande e vestido campestre.",
+    "description": "Em outubro de 2026 estreou Strawberry Shortcake’s Bake Shop, série em CGI inspirada diretamente no visual clássico dos anos 80. A imagem mostra cachinhos ruivos, chapéu rosa com morangos, vestido vermelho e avental claro com losangos verdes: uma homenagem explícita às origens.",
+    "medium": "Nova série 3D inspirada nos anos 80",
+    "compareTitle": "A nostalgia em 3D",
+    "compareText": "Cachos ruivos, chapéu rosa, avental e meias listradas.",
     "traits": [
-      "Cachos ruivos modelados em 3D",
-      "Vestido, avental e meias listradas",
-      "Retorno intencional à identidade clássica"
+      "Cachos ruivos volumosos e olhos verdes",
+      "Chapéu rosa grande com estampa de morangos",
+      "Vestido vermelho, avental e meias verdes listradas"
     ],
-    "source": "https://www.wildbrain.com/trade-news/something-sweet-is-baking-wildbrain-s-strawberry-shortcake-returns-home-in-brand-new-series-strawbe",
-    "image": "https://static.wixstatic.com/media/4127e9_2cf5589f80bd446fa784e8d7d5538f4a~mv2.png",
-    "sprite": null,
     "bg": "#e1edcf"
   }
 };
-const POSTER = "https://pbs.twimg.com/media/F1Kt1_iWwAImVLR?format=jpg&name=large";
+
 const order = Object.keys(eras).sort((a,b)=>Number(a)-Number(b));
 const reduceMotion = () => window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 const scrollEra = () => document.querySelector('#eras').scrollIntoView({behavior:reduceMotion()?'auto':'smooth'});
-const posterProbe = new Image();
-posterProbe.src = POSTER;
-const imageCache = new Map();
 
-// Use uma imagem local, caso exista. Senão, uma referência histórica vinculada à fonte.
+// O álbum utiliza somente os arquivos locais enviados pela colecionadora.
 function setArt(wrapper, era) {
   if (!wrapper || !era) return;
   wrapper.replaceChildren();
   wrapper.classList.add('historic-media');
+  wrapper.classList.remove('has-original');
   const fallback = document.createElement('div');
   fallback.className = 'original-unavailable';
-  fallback.innerHTML = '<span aria-hidden="true">♡</span><strong>Imagem histórica indisponível</strong><small>Você pode inserir o arquivo original na pasta assets/versoes.</small>';
-  const ref = document.createElement('a');
-  ref.href = era.source;
-  ref.target='_blank'; ref.rel='noopener noreferrer'; ref.textContent='Ver referência ↗';
-  fallback.appendChild(ref);
+  fallback.innerHTML = '<span aria-hidden="true">♡</span><strong>Imagem não encontrada</strong><small>Confira o arquivo assets/versoes/' + era.year + '.png.</small>';
   wrapper.appendChild(fallback);
-  const img=document.createElement('img');
-  img.className='real-era-art';
-  img.alt=`Moranguinho em ${era.year} — arte histórica de referência (${era.medium})`;
-  img.loading = wrapper.id==='spotlight-art'?'eager':'lazy';
-  img.decoding='async';
-  let requestToken=Symbol(era.year);
-  wrapper._imageToken=requestToken;
-  const show=()=>{ if(wrapper._imageToken===requestToken) wrapper.classList.add('has-original'); };
-  const unavailable=()=>{if(wrapper._imageToken===requestToken) wrapper.classList.remove('has-original');};
-  img.addEventListener('load',show);
-  const setRemote=()=>{
-    if(era.image) { img.src=era.image; img.onerror=unavailable; return; }
-    if(era.sprite) {
-      img.remove();
-      const sprite=document.createElement('div');
-      sprite.className='poster-sprite'; sprite.setAttribute('role','img'); sprite.setAttribute('aria-label',img.alt);
-      sprite.style.backgroundImage=`url("${POSTER}")`;
-      sprite.style.backgroundPosition=`${era.sprite[0]*25}% ${era.sprite[1]*50}%`;
-      const showPoster=()=>{if(wrapper._imageToken!==requestToken)return; wrapper.appendChild(sprite);wrapper.classList.add('has-original');};
-      if(posterProbe.complete) { posterProbe.naturalWidth?showPoster():unavailable(); }
-      else {posterProbe.addEventListener('load',showPoster,{once:true});posterProbe.addEventListener('error',unavailable,{once:true});}
-      return;
-    }
-    unavailable();
-  };
-  img.onerror=setRemote;
+  const img = document.createElement('img');
+  img.className = 'real-era-art';
+  img.alt = `Moranguinho em ${era.year}: ${era.compareText}`;
+  img.loading = (wrapper.id === 'spotlight-art') ? 'eager' : 'lazy';
+  img.decoding = 'async';
+  const token = Symbol(era.year);
+  wrapper._imageToken = token;
+  img.addEventListener('load', () => {
+    if (wrapper._imageToken === token) wrapper.classList.add('has-original');
+  });
+  img.addEventListener('error', () => {
+    if (wrapper._imageToken === token) wrapper.classList.remove('has-original');
+  });
   wrapper.appendChild(img);
-  img.src=`assets/versoes/${era.year}.png`;
+  img.src = `assets/versoes/${era.year}.png`;
 }
 
 const spotlight=document.querySelector('.spotlight');
@@ -378,7 +284,7 @@ function selectEra(year, shouldFocus=false) {
  document.querySelector('#era-description').textContent=era.description;
  document.querySelector('#era-medium').textContent=era.medium;
  document.querySelector('#era-traits').replaceChildren(...era.traits.map(t=>{const li=document.createElement('li');li.textContent=t;return li;}));
- document.querySelector('#era-source').href=era.source;
+ 
  spotlight.style.setProperty('--era-bg',era.bg);
  setArt(document.querySelector('#spotlight-art'),era);
  yearTabs.forEach(tab=>{const active=tab.dataset.year===year;tab.classList.toggle('active',active);tab.setAttribute('aria-selected',String(active));tab.tabIndex=active?0:-1;});
@@ -424,5 +330,5 @@ nav.querySelectorAll('a').forEach(link=>link.addEventListener('click',closeMenu)
 document.addEventListener('keydown',e=>{if(e.key==='Escape')closeMenu();});
 document.querySelectorAll('a[href="#topo"]').forEach(link=>link.addEventListener('click',e=>{e.preventDefault();window.scrollTo({top:0,left:0,behavior:reduceMotion()?'auto':'smooth'});closeMenu();}));
 document.querySelectorAll('[data-art-year]').forEach(w=>setArt(w,eras[w.dataset.artYear]));
-selectEra('1978'); updateComparison('a');updateComparison('b');
-// A ausência de imagens externas nunca é substituída por desenhos não oficiais.
+selectEra('1973'); updateComparison('a');updateComparison('b');
+// As 15 imagens do álbum são carregadas apenas da pasta local.
